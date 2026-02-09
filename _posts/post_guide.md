@@ -40,13 +40,17 @@ Store all project-related images in /assets/img/. To display them in a post, use
 4. Writing Content
 Use Markdown headers to structure the project for readability:
 
-## Overview: The problem or goal.
+## Overview: 
+The problem or goal.
 
-## Technical Stack: Hardware and software used.
+## Technical Stack: 
+Hardware and software used.
 
-## Execution: Steps taken to complete the project.
+## Execution: 
+Steps taken to complete the project.
 
-## Outcome: The final result or lessons learned.
+## Outcome: 
+The final result or lessons learned.
 
 5. Verification
 After committing a new post, check the Actions tab on GitHub.
