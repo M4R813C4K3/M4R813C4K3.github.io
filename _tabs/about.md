@@ -19,32 +19,32 @@ Outside of the server room, I maintain a constant curiosity for learning across 
 
 ### 🛠️ Core Competencies
 
-#### **1. Full-Stack Server & Hardware Ops**
-* **Infrastructure Implementation:** Managing the complete "Full Stack" lifecycle of enterprise hardware - from configuring **Cisco UCS C220 M5** platforms and **CIMC** firmware to architecting **RAID 5** storage arrays.
-* **Virtualization:** Deployment and optimization of **Proxmox VE** and **Hyper-V** environments, managing the vertical from hypervisor installation to LXC/VM service delivery.
-* **Hardware Diagnostics:** Level 3 component-level repair (Motherboard/LCD swaps) and thermal management for **Lenovo Enterprise Workstations**.
-* **OS Proficiency:** Advanced administration of **Windows 10/11 Enterprise IoT** and diverse **Linux** environments (Debian, Arch, and RPM-based distributions).
+#### **1. Full-Stack Server & Physical Infrastructure**
+* **Infrastructure Maintenance:** Managing the "Full Stack" lifecycle of enterprise hardware, from configuring **Cisco UCS** platforms and **CIMC** firmware to maintaining **RAID 5** storage arrays.
+* **Power Redundancy:** Expertise in deploying and maintaining **APC Battery Backups (UPS)** to ensure high availability for both office and home lab environments.
+* **Physical Layer:** Managing existing network architecture through strategic patching and standard **RJ45 termination** to maintain reliable connectivity.
+* **Virtualization:** Optimization of **Proxmox VE** and **Hyper-V** environments, managing the vertical from hypervisor maintenance to LXC/VM service delivery.
 
-#### **2. Enterprise AV & UCC Engineering**
-* **MTR & UCC Platforms:** Full-stack management of **Microsoft Teams Rooms** (Windows/IoT) and **Surface Hub Systems**, including account provisioning and peripheral integration.
-* **Integrated DSP Architecture:** Design and management of **Q-SYS Ecosystems** (Core processors) and **Q-SYS Designer** logic for complex meeting spaces.
-* **Executive Event Production:** Leading internal AV logistics for high-stakes corporate events; providing **Live Sound Reinforcement**, wireless frequency coordination, and hybrid broadcasting.
-* **Visual Infrastructure:** Lifecycle management of **Barco ClickShare** & **Crestron AirMedia** fleets and high-lumen projection systems.
+#### **2. Enterprise AV & UCC Operations**
+* **UCC Platforms:** Full-stack management of **Microsoft Teams Rooms (MTR)** and **Surface Hub Systems**, including account provisioning and peripheral troubleshooting.
+* **AV Maintenance:** Troubleshooting and maintaining established **Q-SYS Ecosystems** (Core processors) and **Q-SYS Designer** logic to ensure meeting room uptime.
+* **Vendor & Fleet Management:** Serving as a technical intermediary for **Konica Minolta** print fleets, utilizing automated replenishment systems and managing vendor service lifecycles.
+* **Event Production:** Leading internal AV logistics for corporate events; providing live sound reinforcement, wireless frequency coordination, and hybrid broadcasting.
 
-#### **3. Infrastructure & Systems Operations**
-* **Identity & Access:** Comprehensive administration of **Active Directory (ADUC)** and **Azure AD (Entra ID)** - managing user lifecycles, security groups, GPOs, and credentialing.
-* **Endpoint Engineering:** **SCCM** (OSD Task Sequences) and **Microsoft Intune** (Autopilot/MDM) for automated deployment.
-* **Mobile Computing:** Lifecycle management of corporate **iOS fleets** (iPad Air/Pro) and **BYOD** onboarding via Intune Company Portal.
-* **Remote Access & Network:** Troubleshooting **Palo Alto GlobalProtect VPN** and LAN protocols (VLAN tagging, DNS, DHCP) for system stability.
+#### **3. Identity, Security & SaaS Administration**
+* **SaaS Operations:** Daily administration and complex troubleshooting for **OneDrive for Business** and **Exchange Online** (managing service mailboxes, shared inboxes, and group permissions).
+* **Identity & Security:** Managing user lifecycles and security groups via **Active Directory (ADUC)** and **Azure AD (Entra ID)**; facilitating **Microsoft Authenticator** MFA enrollment and support.
+* **Endpoint Protection:** Utilizing **Microsoft Defender** for base-level endpoint security and threat mitigation across Windows platforms.
+* **Remote Access:** Troubleshooting **Palo Alto GlobalProtect VPN** to ensure secure, stable remote connectivity for hybrid staff.
 
 #### **4. AI Strategy & Workflow Optimization**
-* **M365 Process Automation:** Optimizing **Microsoft Forms** and **Microsoft Approvals** workflows to digitize requests and streamline departmental operations.
-* **Secure AI Implementation:** Leveraging Enterprise LLMs (**Gemini, Claude, ChatGPT**) for rapid script debugging and documentation while adhering to strict **Data Loss Prevention (DLP)** and governance.
-* **Operational Efficiency:** Acting as a subject matter expert on **Prompt Engineering** to reduce Mean Time to Resolution (MTTR).
+* **M365 Process Automation:** Leveraging **Microsoft Forms** and **Microsoft Approvals** to digitize IT workflows and streamline departmental sign-offs.
+* **Secure AI Implementation:** Utilizing Enterprise LLMs (**Copilot, Gemini, Claude, ChatGPT**) for script debugging and documentation while adhering to **Data Loss Prevention (DLP)** standards.
+* **Operational Efficiency:** Applying **Prompt Engineering** and project lifecycle management principles to reduce Mean Time to Resolution (MTTR).
 
 #### **5. Strategic IT Communications & Design**
-* **Visual Communication:** Leveraging **Adobe Creative Cloud** (Photoshop, Illustrator, Premiere) to design high-impact digital signage, end-user training materials, and adoption campaigns.
-* **Knowledge Management:** Authoring technical SOPs and Knowledge Base (KB) articles to standardize support workflows.
+* **Visual Communication:** Utilizing **Adobe Creative Cloud** (Photoshop, Illustrator, Premiere) to design professional digital signage and end-user adoption materials.
+* **Knowledge Management:** Authoring technical SOPs and Knowledge Base (KB) articles to standardize support workflows and empower end-users.
 
 ### 📫 Contact
 * **LinkedIn:** [Matthew Davis](https://www.linkedin.com/in/mattdavis601/)
