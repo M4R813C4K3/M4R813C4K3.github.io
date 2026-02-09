@@ -1,39 +1,48 @@
 ---
-title: "Full-Stack Infrastructure: Cisco UCS C220 M5 Restoration"
+title: "Infrastructure Restoration: Cisco UCS C220 M5 Hardware Recovery"
 date: 2026-02-09 14:00:00 -0500
 categories: [Infrastructure, Homelab]
-tags: [cisco, proxmox, virtualization, raid, hardware-repair]
-description: A complete vertical restoration of enterprise rack hardware into a high-density Proxmox hypervisor.
+tags: [cisco, hardware-repair, proxmox, virtualization, raid]
+description: Overcoming hardware lockouts and firmware hurdles to restore enterprise-grade server hardware.
 ---
 
 ## Overview
-This project involved the "Full Stack" restoration of a decommissioned **Cisco UCS C220 M5** server. The goal was to bridge the gap between enterprise-grade hardware and home lab utility, creating a stable, high-performance environment for virtualization and network testing.
+This wasn't a standard "plug-and-play" deployment. This project involved the complete recovery of a decommissioned **Cisco UCS C220 M5** server that was effectively "bricked" by forgotten administrative credentials and outdated firmware. The restoration required a deep dive into the physical motherboard logic and enterprise management layers.
 
 ## Technical Stack
-* **Hardware:** Cisco UCS C220 M5 Rack Server.
-* **Storage:** 12G SAS SSDs in a RAID 5 configuration.
-* **Firmware:** Cisco Integrated Management Controller (CIMC).
-* **Hypervisor:** Proxmox VE (Debian-based).
-* **Power:** APC Smart-UPS redundancy.
+* **Hardware:** Cisco UCS C220 M5 (LFF Chassis).
+* **Management:** Cisco Integrated Management Controller (CIMC) & vKVM Console.
+* **Storage:** 12G SAS SSDs / RAID 5 via Cisco 12G SAS Modular Raid Controller.
+* **Hypervisor:** Proxmox VE.
+
+## The Challenges
+
+### 1. The Administrative Lockout (Jumper Reset)
+Upon acquisition, the server was locked behind an unknown BIOS and CIMC password. Standard software resets were impossible. 
+* **The Fix:** I performed a physical hardware bypass by accessing the motherboard and utilizing the **Password Recovery Jumper (PWR REC)**. This involved a coordinated sequence of moving the jumper pins, cycling power to clear the NVRAM, and reseating the pins to regain administrative control.
 
 
 
-## Execution
+### 2. Out-of-Band Management via vKVM
+A critical phase of the restoration was transitioning from physical crash-cart access to remote management. 
+* **vKVM Implementation:** I configured the **CIMC vKVM (Virtual Keyboard Video Mouse)** to allow for remote BIOS interaction and OS installation. 
+* **Virtual Media Mapping:** This was instrumental for the recovery, as it allowed me to map ISO images directly from my workstation to the server as virtual USB/DVD drives, bypassing the need for physical media and significantly speeding up the Proxmox deployment.
 
-### Phase 1: The Physical Layer
-The foundation of the project required sourcing and installing enterprise-spec SAS SSDs. I handled the hardware integration, including drive caddy installation and physical seating within the chassis.
+### 3. Firmware Regression & Update Cycles
+The existing **CIMC** firmware was several versions behind, leading to stability issues with modern SAS SSDs and 10GbE networking.
+* **Troubleshooting:** I navigated the "update path" requirements, ensuring the BIOS and CIMC stayed in sync to avoid bricking the motherboard. I utilized the Cisco Host Upgrade Utility (HUU) to bring the server up to the latest stable release, enabling support for modern virtualization features.
 
-### Phase 2: Firmware & RAID Architecture
-Utilizing the **CIMC (Cisco Integrated Management Controller)**, I performed a full audit of the system firmware.
-* **Firmware Updates:** Patched BIOS and controller firmware to ensure compatibility with modern hypervisors.
-* **RAID Configuration:** Architected a **RAID 5** array using the onboard 12G SAS controller. This configuration was selected to provide an optimal balance between storage capacity, read/write performance, and data redundancy.
+### 4. RAID 5 Architecture
+With the hardware unlocked, I architected a **RAID 5** array using high-performance 12G SAS SSDs. 
+* **The Hurdles:** Dealing with proprietary Cisco drive caddies and ensuring the modular RAID controller correctly recognized the non-Cisco branded enterprise drives. 
+* **Reliability:** To ensure data integrity during the long parity initialization process, the system was backed by an **APC Smart-UPS** to mitigate risks from power fluctuations.
 
-### Phase 3: Virtualization Layer
-With the hardware stabilized, I deployed **Proxmox VE**. 
-* **Tuning:** Optimized the hypervisor settings for the UCS architecture, including CPU pinning and memory ballooning for guest VMs.
-* **Service Delivery:** Initialized a series of LXC containers and Virtual Machines to handle local network services and development sandboxes.
+## Virtualization Deployment
+With the foundation stabilized, I deployed **Proxmox VE**. 
+* **Network Logic:** Configured Linux Bridges to handle multi-tenant traffic, isolating the management CIMC traffic from the production VM VLANs.
+* **Optimization:** Tuned the system for thermal efficiency, adjusting the fan profiles within the CIMC to balance enterprise-grade cooling with a home lab noise floor.
 
 ## Outcome
-The result is a production-grade hypervisor node running in a personal lab environment. By managing the vertical from the physical SSD installation up to the hypervisor service layer, I successfully bypassed the need for third-party integration and created a cost-effective, high-availability server solution.
+The project successfully transformed a "paperweight" into a high-density compute node. This recovery saved thousands in hardware costs and provided a production-grade environment for testing complex network topologies and server-side automation.
 
-Lessons learned included the critical importance of maintaining **APC UPS** backups during RAID initialization to prevent parity errors during potential power fluctuations.
+The experience reinforced a core IT tenet: **Physical access is the ultimate administrative right.**
