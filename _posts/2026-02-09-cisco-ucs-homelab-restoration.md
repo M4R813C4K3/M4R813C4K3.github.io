@@ -1,8 +1,8 @@
 ---
 title: "Infrastructure Restoration: Cisco UCS C220 M5 Hardware Recovery"
 date: 2026-02-09 14:00:00 -0500
-categories: [Infrastructure, Homelab]
-tags: [cisco, hardware-repair, proxmox, virtualization, raid]
+categories: [Infrastructure]
+tags: [cisco, homelab, hardware-repair, proxmox, virtualization, raid]
 description: Overcoming hardware lockouts and firmware hurdles to restore enterprise-grade server hardware.
 ---
 
