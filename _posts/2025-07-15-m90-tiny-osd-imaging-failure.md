@@ -1,8 +1,8 @@
 ---
 title: "Proactive Systems Ops: Solving the M90 Tiny 'Invisible SSD' During Win 11 Migration"
 date: 2025-07-15 15:00:00 -0500
-categories: [Operations]
-tags: [sccm, imaging, windows-11, bios, lenovo, deployment]
+categories: [Homelab]
+tags: [sccm, imaging, windows-11, ubuntu, operations, bios, lenovo, deployment]
 description: Proactively troubleshooting storage controller conflicts months ahead of the Windows 10 EOL deadline.
 ---
 
