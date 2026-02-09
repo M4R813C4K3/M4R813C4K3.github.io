@@ -11,11 +11,17 @@ Every post must begin with a YAML block at the top of the file. Copy and paste t
 
 Markdown
 ---
+
 title: "Title of Project"
+
 date: YYYY-MM-DD HH:MM:SS -0500
+
 categories: [Category1, Category2]
+
 tags: [tag1, tag2]
+
 description: A short one-sentence summary for the preview card.
+
 ---
 
 Rules for Front Matter:
