@@ -2,7 +2,7 @@
 title: "System Integration: Thermal Optimization of an AMD Ryzen 9 9900X Build"
 date: 2025-06-20 14:00:00 -0500
 categories: [Systems-Infrastructure]
-tags: [amd, ryzen, nzxt, hardware-integration, overclocking, thermal-management]
+tags: [amd, ryzen, infrastructure, optimization, hardware-integration, thermal-management]
 description: A technical overview of a high-performance workstation build focusing on resolving Zen 5 thermal behavior through BIOS-level undervolting.
 ---
 
