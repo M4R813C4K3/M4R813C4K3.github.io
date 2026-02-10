@@ -2,7 +2,7 @@
 title: "Infrastructure: Hardware Restoration of a Cisco UCS C220 M5 Server"
 date: 2026-02-09 18:00:00 -0500
 categories: [Systems-Infrastructure]
-tags: [cisco, hardware-repair, proxmox, virtualization, raid, server-administration]
+tags: [cisco, infrastructure, hardware-recovery, server-administration, virtualization, cimc, raid]
 description: A technical walkthrough of recovering decommissioned enterprise hardware through physical jumper resets and firmware synchronization.
 ---
 
