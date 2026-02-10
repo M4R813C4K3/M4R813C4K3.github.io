@@ -2,7 +2,7 @@
 title: "Circuit Analysis: Isolating a MOSFET Failure in a BLDC Motor Controller"
 date: 2026-02-03 16:00:00 -0500
 categories: [Hardware-Diagnostics]
-tags: [electronics, circuit-analysis, mosfet, troubleshooting, hardware-repair]
+tags: [diagnostics, circuit-analysis, hardware-repair, power-electronics, multimeter]
 description: A technical walkthrough of isolating a semiconductor-level failure on a proprietary control board to determine repair feasibility.
 ---
 
