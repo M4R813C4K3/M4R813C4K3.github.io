@@ -8,7 +8,7 @@ order: 4
 # Matty Davis
 **Systems Specialist | Hardware Forensic Analyst | Infrastructure Technologist**
 
-> **"From component-level failure to enterprise-scale deployment."**
+> **"If it has an IP address, I manage it."**
 
 I am an IT professional specializing in the end-to-end lifecycle of enterprise technology. My work sits at the intersection of high-stakes hardware recovery, infrastructure engineering, and executive-level AV operations. I define my value not just by maintaining systems, but by rescuing high-value assets from "impossible" failure states and optimizing decommissioned hardware into functional, high-density infrastructure.
 
