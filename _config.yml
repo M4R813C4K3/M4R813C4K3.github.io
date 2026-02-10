@@ -16,9 +16,7 @@ timezone: America/Toronto
 
 title: Matty Davis # the main title
 
-tagline: |
-  IT Systems:
-  Technical Project Log 
+tagline: Professional IT Portfolio showcasing hardware diagnostics, virtualization, enterprise logistics, and lifecycle management.
 
 description: >- # used by seo meta and the atom feed
   Professional IT Portfolio showcasing hardware diagnostics, virtualization, 
