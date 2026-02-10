@@ -14,6 +14,8 @@ The primary roadblock was a complete lack of administrative credentials for the 
 * **The Manual Fail:** Official documentation for the MeetingBoard frequently led to dead ends, including critical "Click Here for More Info" links that resulted in **404 errors**.
 * **The "Sketchy" BIOS:** During the recovery, even the system prompts were poorly translated—most notably a BIOS update screen that literally asked: *"Do you wanna a BIOS update?"*
 
+![Do You Wanna A BIOS Update?](/assets/img/DoYouWannaABiosUpdate.jpg)
+
 ## Technical Execution
 ### 1. Hard Reset & Password Recovery
 With no documentation to provide the factory default or vendor-set password, I performed a manual factory reset of the Android OS. This was the only viable path to clear the unknown credentials and establish a secure administrative password for our Global UCC team.
