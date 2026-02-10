@@ -2,7 +2,7 @@
 title: "Project: Value Engineering via Repurposed Enterprise Hardware"
 date: 2025-06-21 12:00:00 -0500
 categories: [Enthusiast-Projects]
-tags: [linux, server-administration, virtualization, jvm-tuning, hardware-lifecycle]
+tags: [lenovo, minecraft, linux, asset-reclamation, optimization, java, virtualization]
 description: Repurposing decommissioned Lenovo Tiny hardware into a high-availability game server to achieve near-zero hardware overhead.
 ---
 
