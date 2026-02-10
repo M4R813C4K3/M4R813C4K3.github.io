@@ -21,7 +21,7 @@ The X13 Yoga is a compact 2-in-1, meaning internal tolerances are extremely tigh
 * **ZIF Connectors:** Managing fragile ribbon cables for the digitizer and trackpad.
 * **Captive Fasteners:** Ensuring specific screw lengths were returned to their original positions to avoid "long-screw damage" to the display or chassis.
 
-
+![ThinkPad Motherboard Swap](/assets/img/x13yogaG3_mobo_replacement1.png)
 
 ### 2. The Transplant & Thermal Management
 The heart of the project was migrating the functioning motherboard into the donor chassis. 
