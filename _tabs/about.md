@@ -21,9 +21,9 @@ Outside of the server room, I maintain a constant curiosity for learning across 
 
 #### **1. Full-Stack Server & Physical Infrastructure**
 * **Infrastructure Maintenance:** Managing the "Full Stack" lifecycle of enterprise hardware, from configuring **Cisco UCS** platforms and **CIMC** firmware to maintaining **RAID 5** storage arrays.
-* **Power Redundancy:** Expertise in deploying and maintaining **APC Battery Backups (UPS)** to ensure high availability for both office and home lab environments.
 * **Physical Layer:** Managing existing network architecture through strategic patching and standard **RJ45 termination** to maintain reliable connectivity.
 * **Virtualization:** Optimization of **Proxmox VE** and **Hyper-V** environments, managing the vertical from hypervisor maintenance to LXC/VM service delivery.
+* **Power Redundancy:** Expertise in deploying and maintaining **APC Battery Backups (UPS)** to ensure high availability for both office and home lab environments.
 
 #### **2. Enterprise AV & UCC Operations**
 * **UCC Platforms:** Full-stack management of **Microsoft Teams Rooms (MTR)** and **Surface Hub Systems**, including account provisioning and peripheral troubleshooting.
