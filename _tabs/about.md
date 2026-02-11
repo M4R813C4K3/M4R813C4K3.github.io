@@ -13,9 +13,9 @@ order: 4
 I am an IT professional specializing in the end-to-end lifecycle of enterprise technology. My work sits at the intersection of high-stakes hardware recovery, infrastructure engineering, and executive-level AV operations. I define my value not just by maintaining systems, but by rescuing high-value assets from "impossible" failure states and optimizing decommissioned hardware into functional, high-density infrastructure.
 
 ### 📖 The Engineering Mindset
-Technology has never been a "black box" to me. My journey began with modding Source Engine code in middle school and has evolved into a career centered on understanding the "why" behind system failures. 
+Technology has been a lifelong obsession rather than just a career choice. My journey started in kindergarten with a collection of cereal box CD-ROMs and evolved by middle school into modding Source Engine server code using **C++** and **Lua**. I thrive in the space between standard software tools and the physical reality of hardware. I believe that a technician's greatest asset is the persistence to troubleshoot beyond the "click-to-fix" interface.
 
-Whether it’s bypassing locked bootloaders on enterprise AR headsets or diagnosing a single failed MOSFET on a motor controller, I thrive in the space between standard software tools and the physical reality of hardware. I believe that a technician's greatest asset is the persistence to troubleshoot beyond the "click-to-fix" interface.
+Outside of the server room, I maintain a constant curiosity for learning across various domains, with a particular interest in art, history, and geopolitics. I believe that a well-rounded perspective is what allows a technician to become a true problem solver.
 
 ### 🛠️ Technical Competencies
 
