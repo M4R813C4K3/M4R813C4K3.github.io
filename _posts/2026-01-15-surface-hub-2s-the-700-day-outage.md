@@ -2,44 +2,52 @@
 title: "Operations: The 700-Day Outage — A Forensic Recovery Saga"
 date: 2026-01-15 11:00:00 -0500
 categories: [Operations-Deployment]
-tags: [microsoft, surface-hub, mtr, vendor-management, forensic-recovery, project-management, troubleshooting]
-description: Breaking a multi-year failure loop by bypassing vendor misdirection and proving technical persistence through malicious compliance.
+tags: [microsoft, surface-hub, mtr, vendor-management, forensic-recovery, hardware-diagnostics, project-management]
+description: A multi-year investigation into systemic vendor failure, malicious compliance, and the rescue of a $10,000 executive asset.
 ---
 
 ## Overview
-When I joined the organization in July 2024, I inherited a **Microsoft Surface Hub 2S** that had been non-functional since before my arrival—totaling over 700 days of downtime. This project involved breaking an 18-month vendor stalemate and bypassing a third-party support loop in Nicaragua. More importantly, it required using forensic surveillance to debunk internal theories and force a resolution from Microsoft’s US Head Office.
+When I joined the organization in July 2024, I inherited an expensive piece of "wall art": a **Microsoft Surface Hub 2S** that had been non-functional for over 700 days. This asset predated my tenure and had effectively fallen off the organizational radar—likely omitted from Intune metrics to avoid negatively impacting UCC availability data. 
 
-## The Cycle of Insanity (July 2024 – August 2025)
-The device would be "fixed," work for two weeks, and then collapse back into a BitLocker recovery screen. For a year, I was stuck in a loop of standard protocols that were clearly failing to address the root cause.
+This is the exhaustive documentation of how I broke an 18-month vendor stalemate, bypassed a third-party support loop in Nicaragua, and finally forced a resolution from Microsoft’s US Head Office using high-speed video forensics and malicious compliance.
 
-### The SATA Adapter Gaslight
-In early 2025, Microsoft Support mandated the purchase of a specific third-party hardware part to re-image the SSD directly: the **StarTech USB312SAT3CB** USB-to-SATA adapter. 
-* **The Procurement:** I sourced the $20 adapter immediately.
-* **The Misdirection:** Upon receiving the "official" re-imaging guide, I discovered it was for the **Surface Hub V1**. Our unit was a **2S**, which has no external SSD hatch. 
-* **The Response:** When I pointed out the hardware mismatch, Support never acknowledged the error. They simply moved the goalposts and asked me to "try re-imaging again" via standard USB, completely ignoring the fact that they had just directed me to buy unnecessary hardware.
+## The Cycle of Insanity (July 2024 – Early 2025)
+For the first several months, I operated within the established "fix" cycles. The device would undergo a standard re-image, function for a week or two, and then predictably collapse back into a BitLocker recovery screen or a terminal Blue Screen of Death (BSOD). Every technician before me had either abandoned the ticket or ignored it because it sat outside their direct responsibility.
 
-## Malicious Compliance: The iPhone Surveillance
-By late 2025, the migration to **Windows 11 IoT** was failing at exactly **88%**. Internal UCC teams were certain the failure was due to user error, claiming I "wasn't sticking around to tap the screen" to prevent the device from sleeping during the recovery. 
+### The Hardware Gaslight
+In early 2025, Microsoft Support (offshore) mandated a physical SSD re-image. They provided a "required" shopping list of third-party SATA-to-USB adapters, specifically the **StarTech USB312SAT3CB**. 
+
+* **The Procurement:** I sourced the $20 adapter and waited weeks for delivery and internal approvals.
+* **The Realization:** When the "official" guide arrived, I immediately identified a major red flag. Drawing on my prior experience with **Surface Hub V1** units (which featured a discrete SSD hatch), I realized the guide was for the wrong hardware revision. 
+* **The Conflict:** Our **2S model** utilized a modular compute cartridge with no external hatch. When I pointed this out, support never acknowledged the error; they simply moved the goalposts and asked me to "try a standard USB re-image again."
+
+## The 88% Wall & Malicious Compliance (Late 2025)
+By late 2025, the fleet-wide migration to **Windows 11 IoT** was underway. Out of 300+ units, this device became a terminal "straggler." The migration launcher would execute, initialize, and then consistently hard-crash at exactly **88% completion**.
+
+### The "Alibi" Camera
+Internal UCC teams theorized that the migration was failing because I "wasn't sticking around to tap the screen" and keep the device awake. While I knew that UEFI-level recovery doesn't respect OS sleep timers, I turned to **Malicious Compliance** to silence the critics.
+
+* **The Setup:** I staged an **iPhone** on a tripod to record the entire process.
+* **The Proof:** I recorded myself physically standing by the unit for hours, tapping the screen every 4–5 minutes to satisfy the UCC team’s theory. 
+* **The Forensic Catch:** When the unit inevitably crashed at 88% again, I had the evidence. By scrubbing the high-frame-rate video, I caught the split-second BSOD: **MEMORY_MANAGEMENT**. 
+* **The Smoking Gun:** I backed this up with **Event Viewer** logs showing thousands of entries for that specific stop code. It was no longer a "user error" discussion; it was a documented hardware-firmware conflict.
 
 
 
-### The Alibi Camera
-I knew that a device being recovered at the UEFI/BMR level wouldn't have "sleep timer" issues, but to silence the critics, I turned to **Malicious Compliance**.
-* **The Setup:** I staged a tripod and an **iPhone** to record the entire process.
-* **The Proof:** I recorded myself standing by the unit for hours, physically tapping the screen every 4–5 minutes to satisfy the UCC team's theory. 
-* **The "I Told You So":** When the unit inevitably crashed at 88% despite my constant presence, I didn't just have a failed migration—I had forensic video evidence. By scrubbing the footage, I captured the momentary **MEMORY_MANAGEMENT** stop code that was invisible to the naked eye.
+## The Escalation: Nicaragua to Redmond (December 2025)
+The project reached a turning point in December. While the rest of the team was "at the water cooler" or on holiday, I remained the only point of contact for the escalating ticket. 
 
-## The Handoff: Nicaragua to Redmond (December 2025)
-After providing the forensic video evidence and the Event Viewer logs (which showed thousands of entries for the memory stop code), I forced the ticket out of the offshore support team (Concentrix, Nicaragua). 
+* **The "Ghost" Call:** I received a direct Teams call from a US-based Microsoft manager. 
+* **The Admission:** He had inherited the ticket and found **zero internal notes** from the previous 18 months of offshore support (Concentrix, Nicaragua). He had no idea what had been tried or why the unit was still down.
+* **The Resolution:** After I provided the full forensic history, the timeline of misdirection, and the failure of the **SEMM (Surface Enterprise Management Mode)** certificate method, Microsoft finally conceded. 
 
-* **The "Ghost" Call:** I received a direct Teams call from a US-based Microsoft manager who had inherited the "ghost" ticket. 
-* **The Admission:** He admitted there were **zero internal notes** from the previous 18 months. My documented timeline and video evidence were the only reliable records of the device's history. 
-* **The Resolution:** After trying to quote an **$800 USD** on-site swap for an out-of-warranty device, Microsoft finally acknowledged the systemic support failure and covered the resolution to get the unit back into production.
+## Outcome
+After being down for over **700 days**, the Surface Hub 2S was finally stabilized. The diagnostic forced Microsoft to move past their standard "re-image it again" scripts, eventually leading to a hardware resolution that brought the unit back into the executive boardroom.
 
-## Key Takeaways
-1. **Malicious Compliance as a Tool:** Sometimes you have to film yourself doing "silly" tasks to prove they aren't the solution.
-2. **Vendor Accountability:** Don't let support move the goalposts when they give you the wrong documentation.
-3. **Forensic Persistence:** A $10,000 asset was saved because one person was willing to record a screen for hours to find a single frame of data.
+**Key Takeaways:**
+1. **Persistence is a Technical Skill:** Technical knowledge is useless without the grit to hold vendors accountable for 18 months.
+2. **Document the "Insanity":** When a process fails at 88% five times in a row, you aren't fighting a software bug; you're fighting a systemic failure.
+3. **Forensic Initiative:** Using unconventional tools (like iPhone surveillance) can be the only way to catch "invisible" system crashes that standard logs miss.
 
 ---
 
