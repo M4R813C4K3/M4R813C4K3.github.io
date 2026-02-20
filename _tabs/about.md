@@ -12,22 +12,19 @@ order: 4
 
 I am an IT professional specializing in the end-to-end lifecycle of enterprise technology. My work sits at the intersection of high-stakes hardware recovery, infrastructure engineering, and executive-level AV operations. I define my value not just by maintaining systems, but by rescuing high-value assets from "impossible" failure states and optimizing decommissioned hardware into functional, high-density infrastructure.
 
-### System Lore: Why MU/TH/UR 6000?
+### 💾 System Lore & The Engineering Mindset
 
 If you are wondering about the `muthur-6000` handle, it is a direct nod to the 1979 sci-fi horror classic, *Alien*. On board the commercial towing vehicle *Nostromo*, MU/TH/UR 6000 (affectionately called "Mother") was the central mainframe. She was the silent, unseen architect keeping the ship flying, the life support running, and the payload secure while the crew slept. 
 
-As an IT Systems Specialist, that is exactly how I view enterprise infrastructure. The best IT environments are the ones you do not even realize are operating until you need them.
+As an IT Systems Specialist, that is exactly how I view enterprise infrastructure: the best IT environments are the ones you do not even realize are operating until you need them.
 
-Being born in 1998, I grew up right on the bleeding edge of the unfiltered, wild-west internet. That early exposure to 2000s web culture, breaking software just to see how it worked, and digging into the guts of old machines shaped my entire approach to technology. It fostered a love for hands-on, hardware-level problem-solving that goes beyond standard software support. 
+This mindset is rooted in my history. Born in 1998, I grew up right on the bleeding edge of the unfiltered, wild-west internet. Technology was a lifelong obsession that started in kindergarten with cereal box CD-ROMs, and by middle school, it evolved into modding Source Engine server code using C++ and Lua. Breaking software just to see how it worked fostered a love for hands-on, hardware-level problem-solving that goes far beyond standard software support. 
 
-Today, that translates to a deep appreciation for "cassette futurism" and industrial-grade tech. Whether I am orchestrating a nationwide iPad deployment, reviving a shattered Lenovo ThinkPad with a complex motherboard swap, or spinning up Proxmox containers on my home Cisco UCS server, I approach the work with a focus on absolute structural efficiency. (And yes, my custom Linux desktop environments are usually themed after Aperture Science).
+Today, I thrive in the space between standard software tools and the physical reality of hardware. I believe a technician's greatest asset is the persistence to troubleshoot beyond the "click-to-fix" interface. Whether I am orchestrating a nationwide iPad deployment, reviving a shattered Lenovo ThinkPad with a complex motherboard swap, or spinning up Proxmox containers on my home Cisco UCS server, I approach the work with a focus on absolute structural efficiency. 
+
+This lifelong obsession translates to a deep appreciation for "cassette futurism" and industrial-grade tech (and yes, my custom Linux desktop environments are usually themed after Aperture Science). Outside the server room, I maintain a constant curiosity for art, history, and geopolitics, believing that a well-rounded perspective is what allows a technician to become a true problem solver.
 
 Ultimately, `muthur-6000` represents the intersection of my professional governance and my personal passions: maintaining order in the void, protecting the payload, and ensuring the mainframe serves the crew flawlessly.
-
-### 📖 The Engineering Mindset
-Technology has been a lifelong obsession rather than just a career choice. My journey started in kindergarten with a collection of cereal box CD-ROMs and evolved by middle school into modding Source Engine server code using **C++** and **Lua**. I thrive in the space between standard software tools and the physical reality of hardware. I believe that a technician's greatest asset is the persistence to troubleshoot beyond the "click-to-fix" interface.
-
-Outside of the server room, I maintain a constant curiosity for learning across various domains, with a particular interest in art, history, and geopolitics. I believe that a well-rounded perspective is what allows a technician to become a true problem solver.
 
 ### 🛠️ Technical Competencies
 
