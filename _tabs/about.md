@@ -58,5 +58,5 @@ Ultimately, `muthur-6000` represents the intersection of my professional governa
 
 ### 📫 Contact
 * **LinkedIn:** [Matthew Davis](https://www.linkedin.com/in/mattdavis601/)
-* **GitHub:** [github.com/m4r813c4k3](https://github.com/m4r813c4k3)
+* **GitHub:** [github.com/m4r813c4k3](https://github.com/muthur-6000)
 * **Location:** Hamilton & Burlington, ON
