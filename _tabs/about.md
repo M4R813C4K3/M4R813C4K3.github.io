@@ -16,6 +16,8 @@ I am an IT professional specializing in the end-to-end lifecycle of enterprise t
 
 If you are wondering about the `muthur-6000` handle, it is a direct nod to the 1979 sci-fi horror classic, *Alien*. On board the commercial towing vehicle *Nostromo*, MU/TH/UR 6000 (affectionately called "Mother") was the central mainframe. She was the silent, unseen architect keeping the ship flying, the life support running, and the payload secure while the crew slept. 
 
+![MU/TH/UR 6000 Mainframe Interior](assets/img/muthur-6000-interior.png){: .shadow .rounded }
+
 As an IT Systems Specialist, that is exactly how I view enterprise infrastructure: the best IT environments are the ones you do not even realize are operating until you need them.
 
 This mindset is rooted in my history. Born in 1998, I grew up right on the bleeding edge of the unfiltered, wild-west internet. Technology was a lifelong obsession that started in kindergarten with cereal box CD-ROMs, and by middle school, it evolved into modding Source Engine server code using C++ and Lua. Breaking software just to see how it worked fostered a love for hands-on, hardware-level problem-solving that goes far beyond standard software support. 
