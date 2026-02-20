@@ -9,20 +9,21 @@ order: 3
 **IT Systems Specialist & Enterprise AV Lead**
 *Hamilton/Burlington, ON | [LinkedIn Profile](https://www.linkedin.com/in/mattdavis601/)*
 
-> **Summary:** IT professional with over 10 years of experience in stakeholder management and technical support. Currently providing L2 infrastructure support for ~600 hybrid end-users, specializing in MTR (Microsoft Teams Rooms) environments, asset lifecycle management, and complex hardware diagnostics.
+> **Summary:** Enterprise IT professional with over 10 years of experience in stakeholder management and technical support. Currently operating as an On-Site Support (OSS) Agent delivering critical L2 infrastructure support for ~600 hybrid end-users. Specialized in executing IMACD operations, managing strict IT governance, and architecting complex hardware and Microsoft Teams Rooms (MTR) environments.
 
 ---
 
 ## 💼 Professional Experience
 
-### **L2 Help Desk Support Specialist**
+### **On-Site Support (OSS) L2 Specialist**
 **American IT Solutions (on behalf of Boehringer Ingelheim)** | *Burlington, ON*
 *July 2024 - Present*
-* **Infrastructure Support:** Provide critical L2 technical support for ~600 hybrid end-users (Windows 10/11 & iOS), managing Active Directory permissions and troubleshooting complex network issues (TCP/IP, DNS, VPN).
-* **Enterprise AV Operations:** Coordinate and support proactive A/V meeting setups for executive townhalls, utilizing MTR hardware and wireless presentation gateways.
-* **IT Service Management (ITSM):** Manage Incident/Request lifecycles in **ServiceNow**, performing triage and assignment to specialized infrastructure teams.
-* **Asset Lifecycle:** Oversee IT asset inventory and procurement; contribute to patch management and software distribution strategies.
-* **Documentation & Training:** Develop comprehensive technical guides and end-user training (Phishing/MFA awareness) using Adobe Creative Suite and SharePoint.
+* **Core Infrastructure & IMACD:** Deliver critical L2 technical support for ~600 hybrid end-users, troubleshooting complex network and connectivity issues (TCP/IP, DNS, VPN). Execute full-lifecycle IMACD (Installs, Moves, Adds, Changes, and Disposals) operations for enterprise hardware.
+* **Incident & Request Management:** Triage and manage strict Incident Handling and Request Handling workflows within ServiceNow, acting as the primary escalation point for physical site faults.
+* **Lifecycle & Asset Management:** Oversee comprehensive Asset & Stock Management. Ensure secure Data Preservation protocols during employee On- and Offboarding, and take direct responsibility for the Decommissioning of legacy IT assets.
+* **Enterprise AV & Meeting Room Support:** Provide dedicated Meeting Room Support, coordinating proactive A/V meeting setups for executive townhalls utilizing MTR hardware and wireless presentation gateways.
+* **Site-Specific Infrastructure:** Manage the initial setup, delivery, and disposal of specialized hardware on demand, including Standard Instrumentation PCs, Barcode Scanners, and Label Printers. Provide operational support for site Telephony systems.
+* **IT Governance & Deployment:** Drive Governance Modules through extensive Documentation, Training, and Knowledge Management. Act as the responsible OSS Agent for local Training Preparation & Delivery. Directly responsible for executing Operational Changes and Release to Production activities within the local environment.
 
 ### **Communications Support Specialist**
 **Support Services Group** | *Remote*
@@ -52,8 +53,8 @@ order: 3
 * **Networking:** TCP/IP, DNS, DHCP, VPN Configuration, Azure AD (Entra ID).
 
 ### **Hardware & Diagnostics**
-* **Server/Virtualization:** Cisco UCS C220 M5 (Firmware/RAID), Proxmox VE, Hyper-V.
-* **Client Hardware:** Lenovo ThinkPad X1/T-Series (Component Level Repair), Lenovo Tiny PCs, Thunderbolt Docking Stations.
+* **Server/Virtualization:** Cisco UCS C220 M5 (Firmware/RAID), Proxmox VE, Hyper-V, TrueNAS Scale.
+* **Client Hardware:** Lenovo ThinkPad X1/T-Series (Component Level Repair, Motherboard Swaps), Lenovo Tiny PCs, Thunderbolt Docking Stations.
 * **Tools:** ServiceNow, FNT Command (Asset Mgmt), PAMPortal, Adobe Creative Suite.
 
 ---
