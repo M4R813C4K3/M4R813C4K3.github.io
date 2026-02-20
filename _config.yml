@@ -14,9 +14,9 @@ timezone: America/Toronto
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Matty Davis # the main title
+title: MU/TH/UR 6000: M. Davis E-Portfolio # the main title
 
-tagline: Professional IT Portfolio showcasing hardware diagnostics, virtualization, enterprise logistics, and lifecycle management.
+tagline: My professional IT portfolio showcasing hardware diagnostics, virtualization, enterprise logistics, and lifecycle management.
 
 description: >- # used by seo meta and the atom feed
   Professional IT Portfolio showcasing hardware diagnostics, virtualization, 
