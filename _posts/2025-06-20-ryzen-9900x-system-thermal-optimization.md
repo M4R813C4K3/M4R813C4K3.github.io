@@ -16,7 +16,7 @@ This project involved the assembly and optimization of a workstation utilizing t
 * **GPU:** Sapphire Pulse AMD Radeon RX 7900 GRE
 * **Memory:** 32GB TeamGroup T-FORCE DELTA RGB DDR5 6000MHz CL30
 * **Power Supply:** MSI MPG A1000G PCIE5 (1000W 80+ Gold)
-* **Chassis:** NZXT H9 Flow Elite RGB
+* **Chassis:** NZXT H9 Elite RGB
 
 ## Thermal Diagnostic and Mitigation
 
